@@ -13,7 +13,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git url: 'https://github.com/fangcai2159/autotest.git', branch: 'main',
-                credentialsId: 'github-token' // 替换为你的凭据ID
+                credentialsId: 'github-token' 
 
             }
         }
